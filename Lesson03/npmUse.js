@@ -1,0 +1,1 @@
+require('lxsh-test') // to get the package from repo use >npm i lxsh-test
