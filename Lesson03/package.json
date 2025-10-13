@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "lxnpmfr": "^1.0.0",
     "lxsh-test": "^1.0.0"
   }
 }
