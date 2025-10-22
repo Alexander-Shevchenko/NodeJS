@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            /* 1. Ensure the body takes up the full viewport height */
+            min-height: 100vh;
+            
+            /* 2. Enable Flexbox layout */
+            display: flex;
+            
+            /* 3. Center content horizontally */
+            justify-content: center;
+            
+            /* 4. Center content vertically */
+            align-items: center;
+            
+            /* 5. (Optional) Remove default margins for precise centering */
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <form action="/login" method="post">
+        <table>
+            <tr>
+                <td><label for="username">Username:</label></td>
+                <td><input type="text" id="username" name="username" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: right;">
+                    <input type="submit" value="Login">
+                </td>
+        </table>
+    </form>
+</body>
+</html>
